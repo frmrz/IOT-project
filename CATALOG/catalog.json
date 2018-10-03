@@ -1,0 +1,69 @@
+{
+    "actors": {
+        "active": [], 
+        "registered": [
+            {
+                "threshold": 0.5, 
+                "ID": "001", 
+                "type": "weight", 
+                "users": [
+                    "mogetta", 
+                    "cardinali", 
+                    "serrani", 
+                    "marzola"
+                ], 
+                "last_update": "2018-09-26 16:50:10"
+            }, 
+            {
+                "threshold": 1.5, 
+                "ID": "002", 
+                "type": "weight", 
+                "users": [
+                    "mogetta", 
+                    "cardinali", 
+                    "marzola"
+                ], 
+                "last_update": "2018-09-25 18:02:40"
+            }, 
+            {
+                "ID": "001", 
+                "type": "beacon", 
+                "users": [
+                    "serrani", 
+                    "marzola"
+                ], 
+                "last_update": "2018-09-25 18:02:40"
+            }, 
+            {
+                "ID": "001", 
+                "type": "toy", 
+                "users": [
+                    "marzola"
+                ], 
+                "last_update": "2018-09-25 18:02:40"
+            }
+        ]
+    }, 
+    "broker": {
+        "host": "test.mosquitto.org", 
+        "port": 1883
+    }, 
+    "users": [
+        {
+            "password": "qwerty", 
+            "userID": "cardinali"
+        }, 
+        {
+            "password": "qazwsx", 
+            "userID": "serrani"
+        }, 
+        {
+            "password": "1234", 
+            "userID": "mogetta"
+        }, 
+        {
+            "password": "0000", 
+            "userID": "marzola"
+        }
+    ]
+}

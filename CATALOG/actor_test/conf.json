@@ -1,0 +1,7 @@
+{
+	"url": "http://localhost:8080/imalive",
+	"headers": {
+		"content-type": "application/json"
+	},
+  "imalive_time":10
+}
